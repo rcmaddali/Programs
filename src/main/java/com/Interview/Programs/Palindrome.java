@@ -9,18 +9,19 @@ public class Palindrome {
 		String b = "lappy";
 		System.out.println(isPalin(a));
 		System.out.println(isPalin(b));
-
 	}
 	
 	public static boolean isPalin(String a) {
 		
-		for (int i =0; i<a.length()/2-1; i++) {
+		for (int i =0; i<=a.length()/2-1; i++) {
 			
-			if(a.charAt(i) != a.charAt(a.length()-1)-i)
+			if(a.charAt(i) != a.charAt((a.length()-1)-i))
 				return false;
 		}
 		return true;
 		
 	}
+	
+	
 
 }

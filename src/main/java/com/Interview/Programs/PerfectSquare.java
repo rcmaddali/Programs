@@ -1,10 +1,12 @@
+//WAP to find if a given number is a perfect square of which number
+
 package com.Interview.Programs;
 
 public class PerfectSquare {
 
 	public static void main(String[] args) {
 		
-		int num = 125;
+		int num = 144;
 		System.out.println(squareRoot(num));
 
 	}

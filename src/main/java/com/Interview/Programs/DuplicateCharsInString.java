@@ -7,13 +7,8 @@ public class DuplicateCharsInString {
 
 	public static void main(String[] args) {
 		
-		String a = "abcda";
+		String a = "abcdabd";
 		System.out.println(dupChars(a));
-		
-		String s = "Austin is the capital of Texas";
-		
-		String [] s1 = s.split(" ");
-		System.out.println(s1.length);
 		
 	}
 
